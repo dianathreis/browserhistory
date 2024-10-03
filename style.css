@@ -1,22 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-title, h1, h2, h3, h4, h5, h6 {
-    font-family: 'Oswald', sans-serif;
-}
-
-body, ul, p, li {
-    font-family: 'Open Sans', sans-serif;
-}
-
 body {
-    color: darkblue;
-    background-color: ivory;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
+    background-image: url('https://courses.ics.hawaii.edu/ics314f24/morea/ui-basics/page.gif');
+    background-repeat: no-repeat;
+    color: black;
+    margin: 40px 320px 200px 250px;
+    width: 475px;
+    line-height: 175%;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, -90%); 
+    text-align: center;
+    margin: auto;
 }
 
 img {
+    float: center;
+    margin: 0px 0px 10px 150px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 350%;
+    font-size: 30px;
+    font-weight: bold;
+    white-space: nowrap; 
+
+}
+
+li {
+    display: block;
+}
+
+h1.fancy {
+    font-family: 'Style Script';
+    font-size: 50pt;
+    text-align: center;
+    line-height: 135%;
+}
+
+h2.chapter {
+    font-size: 30pt;
+    text-align: center;
+}
+
+a.left {
     float: left;
-    margin-right: 10px;
+    font-weight: bold;
+}
+
+a.right {
+    float: right;
+    font-weight: bold;
 }
